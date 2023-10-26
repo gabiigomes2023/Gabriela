@@ -5,7 +5,6 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
-    
 }
 
 #sobre {
@@ -18,9 +17,7 @@ body {
     padding: 20px;
     color: #ffffff;
     grid-area: texto;
-    
 }
-
 
 .habilidades{
     color: #ffffff;
@@ -31,6 +28,7 @@ body {
 .icones {
     display:flex;
     justify-content: space-around;
+    text-align: center;
 }
 
 .foto {
@@ -44,30 +42,29 @@ body {
     width:80%
 }
 
-
 .icons{
     margin: 15px;
     padding: 10px;
 }
 
-
 .portifolio{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    padding: 20px;
-    color: #ffffff;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+padding: 20px;
+color: #ffffff;
 }
 
 .container-projetos{
-    display:flex;
-    flex-wrap: wrap;
-gap: 70px;
+display:flex;
+flex-wrap: wrap;
+gap: 50px;
 max-width: 1200px;
 margin: 0 auto;
 color: white;
+justify-content: center;
 }
 
 .projeto {
@@ -100,7 +97,6 @@ color: white;
     font-size: 1rem;
 }
 
-
 .ver-mais{
     background-color: #b2c5f0;
     color: white;
@@ -110,13 +106,10 @@ color: white;
     margin: 5px;
 }
 
-
-
-
 .projeto img {
     max-width: 100%;
     height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 .projeto10 {
@@ -124,8 +117,6 @@ color: white;
     height: auto;
     margin-bottom: 10px;
 }
-
-
 
 .container1 {
     display: flex;
@@ -154,12 +145,6 @@ color: white;
     color: #ffffff;
 }
 
-
-
-
-
-
-
 header {
     background-color: #7db0c6;
     color: #fff;
@@ -185,7 +170,6 @@ nav ul li a {
     color: #fff;
     font-weight: bold;
 }
-
 
   footer {
     background-color: #ec1919;
@@ -216,13 +200,9 @@ body {
     background: #f3e8c0;
 }
 
-
 .cor-de-fundo{
     background: #cdc7c7;
 }
-
-
-
 
 header {
     background: #a08854;
@@ -235,7 +215,6 @@ header {
     color: white;
 }
 
-
 .projeto {
     display: flex;
     flex-direction: column;
@@ -243,7 +222,6 @@ header {
     text-align: center;
     align-items: center;
 }
-
 
 .projeto p {
     font-size: 1rem;
@@ -269,8 +247,3 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
-
-
-
-
-
